@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}git init
+
+body {
+  background-color: rgb(56, 56, 56);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: rgb(100, 100, 100);
+  border-radius: 20px;
+  height: 450px;
+  width: 300px;
+}
+
+h4 {
+  margin: 5px 130px 5px 10px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  outline: 0;
+}
+
+input::placeholder {
+  color: aliceblue;
+}
+
+a {
+  color: white;
+}
